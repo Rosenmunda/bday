@@ -7,8 +7,9 @@ body {
   justify-content: center;
 
   background-size: 1000px;
-  background-color: grey;
-  /* background-image: url("https://www.psdgraphics.com/wp-content/uploads/2022/01/white-math-paper-texture.jpg"); */
+  background-color: rgb(36, 36, 36);
+  background-image: url("WhatsApp\ Image\ 2025-04-03\ at\ 12.43.22.jpeg");
+  background-blend-mode:overlay;
   background-position: center center;
   margin: 0;
 }
@@ -87,8 +88,9 @@ img {
 /* Birthday text style */
 p {
     font-family: 'Zeyada';
+    font-weight: bold;
     font-size: 36px; /* reduced from 50px */
-    color: rgb(0, 0, 100);
+    color: rgb(0, 0, 51);
     opacity: 0.85;
     user-select: none;
     line-height: 1.2; /* reduces vertical space between lines */
