@@ -87,3 +87,16 @@ papers.forEach(paper => {
   const p = new Paper();
   p.init(paper);
 });
+
+// Play audio after user interaction to bypass autoplay restrictions
+const audio = document.getElementById("birthday-audio");
+
+window.addEventListener("click", () => {
+  audio.play().catch(e => {
+    console.log("Autoplay blocked. Will play on next interaction.");
+  });
+}, { once: true }); // only once
+
+window.addEventListener("touchstart", () => {
+    audio.play().catch(e => {});
+  }, { once: true });
