@@ -8,7 +8,7 @@ body {
 
   background-size: 1000px;
   background-color: rgb(36, 36, 36);
-  background-image: url("WhatsApp\ Image\ 2025-04-03\ at\ 12.43.22.jpeg");
+  background-image: url("hbd.jpeg");
   background-blend-mode:overlay;
   background-position: center center;
   margin: 0;
@@ -25,7 +25,7 @@ body {
   border: 1px solid #ccc;
   text-align: center;
 
-  background-image: url("https://i0.wp.com/textures.world/wp-content/uploads/2018/10/2-Millimeter-Paper-Background-copy.jpg?ssl=1");
+  background-image: url("bg.jpeg");
   background-size: 500px;
   background-position: center center;
 }
@@ -88,10 +88,11 @@ img {
 /* Birthday text style */
 p {
     font-family: 'Zeyada';
-    font-weight:400;
+    font-weight:500;
     font-size: 36px; /* reduced from 50px */
-    color: rgb(0, 0, 51);
-    opacity: 0.85;
+    color: rgb(255, 239, 146);
+    background-color: rgb(68, 42, 20);
+    opacity: 1;
     user-select: none;
     line-height: 1.2; /* reduces vertical space between lines */
     margin: 5px 0; /* removes large default margins */
@@ -103,7 +104,7 @@ p {
     background-color: #fdfdfd;
     padding: 12px 12px 30px 12px;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid #fff9c2;
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
     margin-top: 25px;  /* ⬅️ Slightly increased */
     border-radius: 6px;
